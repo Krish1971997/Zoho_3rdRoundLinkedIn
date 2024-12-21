@@ -9,7 +9,6 @@ public abstract class Vehicle {
 		this.licensePlate = licensePlate;
 		this.type = type;
 	}
-
 	public VehicleType getType() {
 		return type;
 	}
