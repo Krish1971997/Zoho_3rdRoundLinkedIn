@@ -25,8 +25,8 @@ public class Main {
 		parkingLot.displayAvailability();
 
 		// Unpark a vehicle
-		//parkingLot.unParkVehicle(car);
-		//parkingLot.displayAvailability();
+		parkingLot.unParkVehicle(car);
+		parkingLot.displayAvailability();
 	}
 }
 

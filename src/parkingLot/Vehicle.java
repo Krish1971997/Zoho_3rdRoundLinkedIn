@@ -1,6 +1,7 @@
 package parkingLot;
 
 public abstract class Vehicle {
+	
 	protected String licensePlate;
 	protected VehicleType type;
 
