@@ -9,6 +9,7 @@ public class ParkingSpot {
         this.number = number;
     }
 
+    
     public synchronized boolean isAvailable() {
         return parkedVehicle == null;
     }
