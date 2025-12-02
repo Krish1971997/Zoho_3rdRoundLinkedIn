@@ -29,7 +29,7 @@ public class SnakeAndLadderGame {
             System.out.println("Rolled a " + roll);
             int newPosition = currentPlayer.getPosition() + roll;
             newPosition = board.getNewPositionAfterSnakeOrLadder(newPosition);
-            if (newPosition <= board.getBoardSize()) {
+            if (newPosition < board.getBoardSize()) {
                 currentPlayer.setPosition(newPosition);
                 System.out.println(currentPlayer.getName() + " moved to position " + newPosition);
             }
