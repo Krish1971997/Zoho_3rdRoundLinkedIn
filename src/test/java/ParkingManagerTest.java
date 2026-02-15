@@ -42,6 +42,7 @@ public class ParkingManagerTest {
                 new ParkingSlot("F1-S2", SlotType.CAR),
                 new ParkingSlot("F1-S3", SlotType.TRUCK)
         ));
+        
         Floor f2 = new Floor(2, Arrays.asList(
                 new ParkingSlot("F2-S1", SlotType.BIKE),
                 new ParkingSlot("F2-S2", SlotType.CAR),
