@@ -52,6 +52,7 @@ public class ParkingManagerTest {
         return new ParkingManager(lot, new DefaultFeeCalculator());
     }
 
+    
     @Test
     void shouldParkDifferentVehicles() {
         Ticket b = manager.park(new Bike("B1"));
